@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "haa2019",
-    "currentPage": "page3.html",
+    "currentPage": "register.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1839,7 +1839,7 @@
         }
       ]
     },
-    "page3.html": {
+    "register.html": {
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "Registration",
