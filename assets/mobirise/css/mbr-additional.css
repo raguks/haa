@@ -3219,8 +3219,8 @@ body {
   background-color: #2e2e2e;
 }
 .cid-raRxiUA2Af {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #7f1933;
 }
 .cid-raRxiUA2Af .line {
@@ -3242,9 +3242,9 @@ body {
   }
 }
 .cid-raRwQIugZz {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #232323;
+  padding-top: 30px;
+  padding-bottom: 75px;
+  background-image: url("../../../assets/images/mbr-2-1920x1440.jpg");
 }
 .cid-raRwQIugZz .pricing {
   padding: 3.3rem;
