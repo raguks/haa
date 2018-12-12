@@ -3221,17 +3221,18 @@ body {
 .cid-raRxiUA2Af {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #7f1933;
+  background-color: #232323;
 }
 .cid-raRxiUA2Af .line {
-  background-color: #ffffff;
-  color: #ffffff;
+  background-color: #232323;
+  color: #232323;
   align: center;
   height: 2px;
   margin: 0 auto;
 }
 .cid-raRxiUA2Af .section-text {
   padding: 2rem 0;
+  color: #efefef;
 }
 .cid-raRxiUA2Af .inner-container {
   margin: 0 auto;
