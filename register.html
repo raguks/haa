@@ -18,15 +18,9 @@
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-
-
-
 </head>
 <body>
   <section class="menu cid-r5hO1Me1jZ" once="menu" id="menu1-2a">
-
-
-
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div class="hamburger">
@@ -59,12 +53,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="">free html website templates</a></section><section once="" class="cid-r9xFcZoGw8" id="footer6-2b">
-
-
-
-
-
+<section class="engine"><a href=""></a></section><section once="" class="cid-r9xFcZoGw8" id="footer6-2b">
     <div class="container">
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
@@ -77,9 +66,6 @@
 </section>
 
 <section class="mbr-section article content10 cid-raRxiUA2Af" id="content10-2f">
-
-
-
     <div class="container">
         <div class="inner-container" style="width: 82%;">
             <hr class="line" style="width: 10%;">
@@ -90,9 +76,6 @@
 </section>
 
 <section class="cid-raRwQIugZz mbr-parallax-background" id="pricing-tables3-2e">
-
-
-
     <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(7, 59, 76);">
     </div>
     <div class="container">
@@ -102,24 +85,26 @@
                     <div class="plan-header">
                         <div class="plan-price">
                             <span class="price-value mbr-fonts-style display-5">
-                                $
+                                US$
                             </span>
                             <span class="price-figure mbr-fonts-style display-1">
                                 100</span>
                             <h3 class="plan-title mbr-fonts-style display-5">
                                 Adult Early Bird</h3>
-                            <hr>
                         </div>
                     </div>
                     <div class="plan-body">
-                        <p class="mbr-text mbr-fonts-style display-7">Entry for 1 adult for the 2 day convention. Free copy of the Sovenir and other mementos. (USD)</p>
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <form name="adultform" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" onsubmit="return validateFormX()">
+                        <input type="hidden" name="on0" value="Registration HAA Convention 2019">
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="XHQMGMPJGM8XG">
                         <input type="hidden" name="os0" value="Adult Early Bird">
                         <input type="hidden" name="currency_code" value="USD">
+                        <input type="hidden" name="item_name" value="Adult Early Bird" id="itemadult">
+                        <input type="hidden" name="paymentaction" value="order">
+                        <b>Full Name:</b> <input type="text" class="form-control" placeholder="Enter registrant's name" name="fname" id="nameadult">
                         <div class="mbr-section-btn pt-4 text-center">
-                          <button class="btn btn-primary display-4" type="submit"><img src="https://cdn0.iconfinder.com/data/icons/shopping-extras-set-1/512/1-512.png" width="55px" height="55px" border="0"> Add</button>
+                          <button class="btn btn-primary display-4" type="submit"><img src="https://cdn0.iconfinder.com/data/icons/shopping-extras-set-1/512/1-512.png" width="45px" height="45px" border="0">&nbsp;&nbsp;Add</button>
                         </div>
                         </form>
                     </div>
@@ -131,26 +116,26 @@
                     <div class="plan-header">
                         <div class="plan-price">
                             <span class="price-value mbr-fonts-style display-5">
-                                $
+                                US$
                             </span>
                             <span class="price-figure mbr-fonts-style display-1">
                                 50</span>
-                            <h3 class="plan-title mbr-fonts-style display-5">
-                                Youth (05-15) Early Bird (USD)</h3>
-                            <hr>
+                            <h2 class="plan-title mbr-fonts-style display-5">
+                                Youth Early Bird</h2>
                         </div>
                     </div>
                     <div class="plan-body">
-                        <p class="mbr-text mbr-fonts-style display-7">
-                            Entry for 2 day event. Free copy of the Sovenir and other mementos.
-                        </p>
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <form name="childform" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post"  onsubmit="return validateFormY()">
+                        <input type="hidden" name="on0" value="Registration HAA Convention 2019">
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="XHQMGMPJGM8XG">
                         <input type="hidden" name="os0" value="Child Early Bird (05-15)">
                         <input type="hidden" name="currency_code" value="USD">
+                        <input type="hidden" name="item_name" value="Child Early Bird" id="childitem">
+                        <input type="hidden" name="paymentaction" value="order">
+                        <b>Full Name(05-15):</b> <input type="text" class="form-control" placeholder="Enter registrant's name" name="fname" id="namechild">
                         <div class="mbr-section-btn pt-4 text-center">
-                          <button class="btn btn-primary display-4" type="submit"><img src="https://cdn0.iconfinder.com/data/icons/shopping-extras-set-1/512/1-512.png" width="55px" height="55px" border="0"> Add</button>
+                          <button class="btn btn-primary display-4" type="submit"><img src="https://cdn0.iconfinder.com/data/icons/shopping-extras-set-1/512/1-512.png" width="45px" height="45px" border="0">&nbsp;&nbsp;Add</button>
                         </div>
                         </form>
                     </div>
@@ -162,24 +147,26 @@
                     <div class="plan-header">
                         <div class="plan-price">
                             <span class="price-value mbr-fonts-style display-5">
-                                $
+                                US$
                             </span>
                             <span class="price-figure mbr-fonts-style display-1">75</span>
                             <h3 class="plan-title mbr-fonts-style display-5">
-                                Youth Workshop (USD)</h3>
-                            <hr>
+                                Youth Workshop</h3>
+
                         </div>
                     </div>
                     <div class="plan-body ">
-                        <p class="mbr-text mbr-fonts-style display-7">
-                            Entry to HAA Youth Workshop. Networking and learning oppurtunity.</p>
-                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <form name="youthwform" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post"  onsubmit="return validateFormZ()">
+                            <input type="hidden" name="on0" value="Registration HAA Convention 2019">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="XHQMGMPJGM8XG">
                             <input type="hidden" name="os0" value="Youth Workshop">
                             <input type="hidden" name="currency_code" value="USD">
+                            <input type="hidden" name="item_name" value="Youth Workshop" id=itemyothw>
+                            <input type="hidden" name="paymentaction" value="order">
+                            <b>Full Name:</b> <input type="text" class="form-control" placeholder="Enter registrant's name" name="fname" id="nameyw">
                             <div class="mbr-section-btn pt-4 text-center">
-                              <button class="btn btn-primary display-4" type="submit"><img src="https://cdn0.iconfinder.com/data/icons/shopping-extras-set-1/512/1-512.png" width="55px" height="55px" border="0"> Add</button>
+                              <button class="btn btn-primary display-4" type="submit"><img src="https://cdn0.iconfinder.com/data/icons/shopping-extras-set-1/512/1-512.png" width="45px" height="45px" border="0">&nbsp;&nbsp;Add</button>
                             </div>
                             </form>
                     </div>
@@ -187,12 +174,12 @@
             </div>
         </div>
         <div class="mbr-section-btn pt-4 text-center">
-        <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-        <button class="btn btn-primary display-4" type="submit"><img src="https://fua-gra.online/uploaded/checkout-dark.png" width="155px" height="155px" border="0">Checkout</button>
-        </form>
-      </div>        
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+          <button class="btn btn-primary display-4" type="submit"><img src="https://fua-gra.online/uploaded/checkout-dark.png" width="99px" height="99px" border="0">Checkout</button>
+          </form>
+      </div>
     </div>
 </section>
 
@@ -226,8 +213,61 @@
   <script src="assets/parallax/jarallax.min.js"></script>
   <script src="assets/dropdown/js/script.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
-
-
   <input name="animation" type="hidden">
+
+  <script>
+  function validateFormX() {
+    var x = document.forms["adultform"]["fname"].value;
+    if (x == "") {
+      //alert("Name must be filled out");
+      $("#NameModal").modal();
+      return false;
+    } else {
+      document.getElementById("itemadult").value = document.getElementById("itemadult").value +":"+ x;
+    }
+  }
+  function validateFormY() {
+    var y = document.forms["childform"]["fname"].value;
+    if (y == "") {
+      //alert("Name must be filled out");
+      $("#NameModal").modal();
+      return false;
+    } else {
+      var fname = document.getElementById("childitem").value;
+      document.getElementById("childitem").value = fname + ":" + y;
+    }
+  }
+  function validateFormZ() {
+    var z = document.forms["youthwform"]["fname"].value;
+    if (z == "") {
+      //alert("Name must be filled out");
+      $("#NameModal").modal();
+      return false;
+    } else {
+      document.getElementById("itemyothw").value = document.getElementById("itemyothw").value +":"+ z;
+    }
+  }
+  </script>
+
+  <!-- Modal -->
+  <div class="modal fade " id="NameModal" tabindex="-1" role="dialog" aria-labelledby="NameModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="NameModalLabel">Warning</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Please enter registrant's name before adding to cart.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   </body>
 </html>
