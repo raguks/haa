@@ -173,22 +173,25 @@
                 </div>
             </div>
         </div>
-        <div class="mbr-section-btn pt-4 text-center">
-          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+        <div class="media-container-row">
+        <div class="col-12 col-lg-4 col-md-6 my-2">
+          <div class="mbr-section-btn pt-4 text-center" style="text-align: center !important;">
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" id="chkoutform"> <!--onsubmit="return validateFormA()" -->
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-          <button class="btn btn-primary display-4" type="submit"><img src="https://fua-gra.online/uploaded/checkout-dark.png" width="99px" height="99px" border="0">Checkout</button>
+          <input type="hidden" name="on1" value="note">
+          <div class="plan-body ">
+          <input type="text" name="os1" maxlength="200" class="form-control" placeholder="Leave a Note to Hosts/Requests/etc" id="noteid">
+          </div>
+          <button class="btn btn-primary display-4" type="submit"><img src="https://fua-gra.online/uploaded/checkout-dark.png" width="75px" height="75px" border="0">Checkout</button>
           </form>
-      </div>
+        </div>
+        </div>
+        </div>
     </div>
 </section>
 
 <section once="" class="cid-rbXJjxMswj mbr-reveal" id="footer7-2h">
-
-
-
-
-
     <div class="container">
         <div class="media-container-row align-center mbr-white">
 
@@ -216,6 +219,18 @@
   <input name="animation" type="hidden">
 
   <script>
+
+  function validateFormA() {
+    var a = document.forms["chkoutform"]["os1"].value;
+    if (a == "") {
+      //alert("Name must be filled out");
+      $("#NoteModal").modal();
+      return false;
+    } else {
+      document.getElementById("nameid").value = document.getElementById("nameid").value +":"+ a;
+    }
+  }
+
   function validateFormX() {
     var x = document.forms["adultform"]["fname"].value;
     if (x == "") {
@@ -249,7 +264,7 @@
   }
   </script>
 
-  <!-- Modal -->
+  <!-- NameModal -->
   <div class="modal fade " id="NameModal" tabindex="-1" role="dialog" aria-labelledby="NameModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -268,6 +283,26 @@
       </div>
     </div>
   </div>
+
+  <!-- NoteModal -->
+  <!-- <div class="modal fade " id="NoteModal" tabindex="-1" role="dialog" aria-labelledby="NoteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="NoteModalLabel">Request:</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Please leave a greeting/note to hosts. Or food restrictions/allegies/special needs. Or anything else you want hosts to know.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
 
   </body>
 </html>
