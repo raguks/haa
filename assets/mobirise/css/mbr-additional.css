@@ -2160,13 +2160,24 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-r6vAKye4uP {
-  padding-top: 105px;
-  padding-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 105px;
   background-image: url("../../../assets/images/mbr-2-1920x1440.jpg");
 }
+.cid-r6vAKye4uP I {
+  color: #ffc80f;
+}
+.cid-r6vAKye4uP .mbr-text,
+.cid-r6vAKye4uP .mbr-section-btn {
+  color: #ff3366;
+}
+.cid-r6vAKye4uP .mbr-text,
+.cid-r6vAKye4uP .mbr-section-btn B {
+  color: #ffffff;
+}
 .cid-r6vHcoZFOZ {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #ffc80f;
 }
 .cid-r6vHcoZFOZ .socicon-bg-facebook {
