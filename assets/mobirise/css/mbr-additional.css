@@ -2245,8 +2245,8 @@ body {
   color: #ffc80f;
 }
 .cid-r6vNF5Qhla {
-  padding-top: 30px;
-  padding-bottom: 45px;
+  padding-top: 15px;
+  padding-bottom: 30px;
   background-color: #232323;
 }
 .cid-r6vNF5Qhla .mbr-section-subtitle {
@@ -2333,16 +2333,38 @@ body {
   color: #efefef;
 }
 .cid-rcbAC7Kwcf {
-  padding-top: 0px;
+  padding-top: 15px;
   padding-bottom: 0px;
   background-color: #ffc80f;
 }
 .cid-rcbAC7Kwcf .mbr-section-subtitle {
   color: #cc2952;
 }
+.cid-rcf8bqrAtJ {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #232323;
+}
+.cid-rcf8bqrAtJ .mbr-text,
+.cid-rcf8bqrAtJ blockquote {
+  color: #767676;
+}
+.cid-rcf8bqrAtJ .mbr-text B {
+  color: #ffffff;
+}
+.cid-rcf8bqrAtJ .mbr-text SPAN {
+  color: #ffffff;
+}
+.cid-rcf8bqrAtJ .mbr-text {
+  color: #ffc80f;
+}
+.cid-rcf8bqrAtJ .mbr-text P {
+  text-align: center;
+  color: #ffc80f;
+}
 .cid-rcbvnmSg5g {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 15px;
   background: linear-gradient(45deg, #232323, #232323);
 }
 .cid-rcbvnmSg5g .list-group-item {
@@ -2407,7 +2429,7 @@ body {
 .cid-rcbTJhcphE {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #ffffff;
+  background-color: #232323;
 }
 .cid-rcbTJhcphE .mbr-text,
 .cid-rcbTJhcphE blockquote {
@@ -2415,13 +2437,14 @@ body {
 }
 .cid-rcbTJhcphE .mbr-text {
   text-align: center;
+  color: #ffc80f;
 }
 .cid-rcbTJhcphE .mbr-text B {
-  color: #cc2952;
+  color: #ffc80f;
 }
 .cid-rcbT73PNem {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 30px;
+  padding-bottom: 0px;
   background: linear-gradient(45deg, #232323, #232323);
 }
 .cid-rcbT73PNem .list-group-item {
@@ -2486,6 +2509,9 @@ body {
 .cid-rcbXgudEFP .mbr-text B {
   color: #ffc80f;
 }
+.cid-rcbXgudEFP .mbr-text {
+  color: #ffc80f;
+}
 .cid-r9u9cywm8F {
   padding-top: 15px;
   padding-bottom: 0px;
@@ -2515,6 +2541,9 @@ body {
 .cid-r9u8ITHSoU .mbr-text {
   color: #cccccc;
 }
+.cid-r9u8ITHSoU .mbr-text B {
+  color: #ffc80f;
+}
 .cid-r9u8L4VQO9 {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -2532,13 +2561,14 @@ body {
 }
 .cid-r9u8L4VQO9 .mbr-text {
   color: #efefef;
+  text-align: right;
 }
 .cid-r9u8L4VQO9 .mbr-text B {
-  color: #cccccc;
+  color: #ffc80f;
 }
 .cid-r9u8P7fwOw {
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   background-color: #232323;
 }
 .cid-r9u8P7fwOw h4 {
@@ -2563,9 +2593,9 @@ body {
   color: #ffc80f;
 }
 .cid-r6vHBt48EO {
-  padding-top: 15px;
+  padding-top: 120px;
   padding-bottom: 15px;
-  background-color: #2e2e2e;
+  background-image: url("../../../assets/images/mbr-2-1920x1440.jpg");
 }
 @media (max-width: 767px) {
   .cid-r6vHBt48EO .content {
@@ -2656,10 +2686,13 @@ body {
 .cid-r6vHBt48EO .copyright > p {
   color: #ffc80f;
 }
+.cid-r6vHBt48EO B {
+  color: #ff3366;
+}
 .cid-r9rfCPmBPn {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #232323;
+  background-image: url("../../../assets/images/662px-raja-ravi-varma-sankaracharya-1279x852.jpg");
 }
 .cid-r9rfCPmBPn .mbr-section-subtitle {
   color: #767676;
@@ -2795,7 +2828,7 @@ body {
 }
 .cid-r9rA0DFrfJ {
   padding-top: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   background-color: #232323;
 }
 .cid-r9rA0DFrfJ .mbr-section-subtitle {
@@ -2836,7 +2869,7 @@ body {
   border-top: 1px solid #ffc80f;
 }
 .cid-r9rA0DFrfJ table.table {
-  background: #ff3366;
+  background: #149dcc;
 }
 .cid-r9rA0DFrfJ .dataTables_filter {
   text-align: right;
@@ -2873,8 +2906,8 @@ body {
   }
 }
 .cid-r9uaI5FZbS {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 0px;
   background-color: #ffc80f;
 }
 .cid-r9uaI5FZbS .mbr-section-subtitle {
@@ -2946,8 +2979,8 @@ body {
   color: #efefef;
 }
 .cid-r9xDLZM3PG {
-  padding-top: 30px;
-  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 0px;
   background-color: #7f1933;
 }
 .cid-r9xDLZM3PG .mbr-section-subtitle {
@@ -3007,7 +3040,7 @@ body {
 .cid-rcbJKBOcr9 {
   padding-top: 30px;
   padding-bottom: 0px;
-  background-color: #232323;
+  background-image: url("../../../assets/images/edwards-1320x880.jpg");
 }
 .cid-rcbJKBOcr9 h4 {
   text-align: left;
@@ -3043,6 +3076,7 @@ body {
 }
 .cid-rcbJKBOcr9 P {
   color: #efefef;
+  text-align: left;
 }
 .cid-rcbJKBOcr9 .card-title,
 .cid-rcbJKBOcr9 .card-img {
@@ -3055,7 +3089,7 @@ body {
   color: #ffc80f;
 }
 .cid-rcbQJ8DByK {
-  padding-top: 0px;
+  padding-top: 15px;
   padding-bottom: 0px;
   background-color: #232323;
 }
@@ -3067,7 +3101,7 @@ body {
   color: #efefef;
 }
 .cid-rcbQqtopGC {
-  padding-top: 0px;
+  padding-top: 15px;
   padding-bottom: 0px;
   background-color: #ffc80f;
 }
@@ -3101,7 +3135,7 @@ body {
   display: none;
 }
 .cid-rcbZF9A5WN {
-  padding-top: 0px;
+  padding-top: 30px;
   padding-bottom: 30px;
   background-color: #ffffff;
 }
@@ -3113,7 +3147,7 @@ body {
   color: #232323;
 }
 .cid-rcbSyfgYFX {
-  padding-top: 0px;
+  padding-top: 15px;
   padding-bottom: 0px;
   background-color: #ffc80f;
 }
@@ -3420,10 +3454,6 @@ body {
 .cid-r5hO1Me1jZ .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
-.cid-r5hO1Me1jZ .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
-.cid-r5hO1Me1jZ .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
-  margin-bottom: 1rem;
-}
 .cid-r5hO1Me1jZ .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-r5hO1Me1jZ .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -3518,10 +3548,6 @@ body {
   .cid-r5hO1Me1jZ .navbar-collapse.collapsing .navbar-nav .nav-item,
   .cid-r5hO1Me1jZ .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
-  }
-  .cid-r5hO1Me1jZ .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
-  .cid-r5hO1Me1jZ .navbar-collapse.show .navbar-nav .nav-item:last-child {
-    margin-bottom: 1rem;
   }
   .cid-r5hO1Me1jZ .navbar-collapse.collapsing .navbar-buttons,
   .cid-r5hO1Me1jZ .navbar-collapse.show .navbar-buttons {
