@@ -2831,7 +2831,7 @@ body {
 }
 .cid-r9rA0DFrfJ {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   background-color: #232323;
 }
 .cid-r9rA0DFrfJ .mbr-section-subtitle {
@@ -2907,6 +2907,11 @@ body {
     width: 100% !important;
     margin-left: 0 !important;
   }
+}
+.cid-rcwVi7dcau {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #2e2e2e;
 }
 .cid-r9uaI5FZbS {
   padding-top: 15px;
