@@ -2245,7 +2245,7 @@ body {
   color: #cccccc;
 }
 .cid-r9uf0WtZOg .mbr-author-name SPAN {
-  color: #ffc80f;
+  color: #ff3366;
 }
 .cid-r6vNF5Qhla {
   padding-top: 15px;
@@ -2595,74 +2595,74 @@ body {
 .cid-r9u8P7fwOw .card-title {
   color: #ffc80f;
 }
-.cid-r6vHBt48EO {
-  padding-top: 120px;
-  padding-bottom: 15px;
-  background-image: url("../../../assets/images/mbr-2-1920x1440.jpg");
+.cid-rcHGBEoYw1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("../../../assets/images/mbr-4-1920x1440.jpg");
 }
 @media (max-width: 767px) {
-  .cid-r6vHBt48EO .content {
+  .cid-rcHGBEoYw1 .content {
     text-align: center;
   }
-  .cid-r6vHBt48EO .content > div:not(:last-child) {
+  .cid-rcHGBEoYw1 .content > div:not(:last-child) {
     margin-bottom: 2rem;
   }
 }
-.cid-r6vHBt48EO .map {
+.cid-rcHGBEoYw1 .map {
   height: 18.75rem;
 }
 @media (max-width: 767px) {
-  .cid-r6vHBt48EO .footer-lower .copyright {
+  .cid-rcHGBEoYw1 .footer-lower .copyright {
     margin-bottom: 1rem;
     text-align: center;
   }
 }
-.cid-r6vHBt48EO .footer-lower hr {
+.cid-rcHGBEoYw1 .footer-lower hr {
   margin: 1rem 0;
   border-color: #fff;
   opacity: .05;
 }
-.cid-r6vHBt48EO .footer-lower .social-list {
+.cid-rcHGBEoYw1 .footer-lower .social-list {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  display: -webkit-flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+  display: flex;
   -webkit-justify-content: flex-end;
+  justify-content: flex-end;
   -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-.cid-r6vHBt48EO .footer-lower .social-list .mbr-iconfont-social {
+.cid-rcHGBEoYw1 .footer-lower .social-list .mbr-iconfont-social {
   font-size: 1.3rem;
   color: #fff;
 }
-.cid-r6vHBt48EO .footer-lower .social-list .soc-item {
+.cid-rcHGBEoYw1 .footer-lower .social-list .soc-item {
   margin: 0 .5rem;
 }
-.cid-r6vHBt48EO .footer-lower .social-list a {
+.cid-rcHGBEoYw1 .footer-lower .social-list a {
   margin: 0;
   opacity: .5;
   -webkit-transition: .2s linear;
   transition: .2s linear;
 }
-.cid-r6vHBt48EO .footer-lower .social-list a:hover {
+.cid-rcHGBEoYw1 .footer-lower .social-list a:hover {
   opacity: 1;
 }
 @media (max-width: 767px) {
-  .cid-r6vHBt48EO .footer-lower .social-list {
-    justify-content: center;
+  .cid-rcHGBEoYw1 .footer-lower .social-list {
     -webkit-justify-content: center;
+    justify-content: center;
   }
 }
-.cid-r6vHBt48EO .google-map {
+.cid-rcHGBEoYw1 .google-map {
   height: 25rem;
   position: relative;
 }
-.cid-r6vHBt48EO .google-map iframe {
+.cid-rcHGBEoYw1 .google-map iframe {
   height: 100%;
   width: 100%;
 }
-.cid-r6vHBt48EO .google-map [data-state-details] {
+.cid-rcHGBEoYw1 .google-map [data-state-details] {
   color: #6b6763;
   font-family: Montserrat;
   height: 1.5em;
@@ -2674,27 +2674,18 @@ body {
   top: 50%;
   width: 100%;
 }
-.cid-r6vHBt48EO .google-map[data-state] {
+.cid-rcHGBEoYw1 .google-map[data-state] {
   background: #e9e5dc;
 }
-.cid-r6vHBt48EO .google-map[data-state="loading"] [data-state-details] {
+.cid-rcHGBEoYw1 .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
-.cid-r6vHBt48EO P {
-  color: #ffffff;
-}
-.cid-r6vHBt48EO STRONG {
+.cid-rcHGBEoYw1 .copyright > p {
   color: #ffc80f;
-}
-.cid-r6vHBt48EO .copyright > p {
-  color: #ffc80f;
-}
-.cid-r6vHBt48EO B {
-  color: #ff3366;
 }
 .cid-r9rfCPmBPn {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-image: url("../../../assets/images/662px-raja-ravi-varma-sankaracharya-1279x852.jpg");
 }
 .cid-r9rfCPmBPn .mbr-section-subtitle {
@@ -2995,7 +2986,7 @@ body {
   color: #ffc80f;
 }
 .cid-r9xDNmZcnU {
-  padding-top: 0px;
+  padding-top: 15px;
   padding-bottom: 0px;
   background-color: #232323;
 }
@@ -3108,6 +3099,9 @@ body {
 .cid-rcbQJ8DByK .mbr-text B {
   color: #efefef;
 }
+.cid-rcbQJ8DByK .mbr-text P {
+  color: #ff3366;
+}
 .cid-rcwnUTAWxr {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -3117,7 +3111,7 @@ body {
   color: #ff3366;
 }
 .cid-rcwnUTAWxr H3 {
-  color: #2e2e2e;
+  color: #232323;
 }
 .cid-rcbQqtopGC {
   padding-top: 15px;
@@ -3156,7 +3150,7 @@ body {
 .cid-rcbZF9A5WN {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #ffffff;
+  background-color: #ffc80f;
 }
 .cid-rcbZF9A5WN .mbr-text,
 .cid-rcbZF9A5WN blockquote {
@@ -3168,15 +3162,15 @@ body {
 .cid-rcbSyfgYFX {
   padding-top: 15px;
   padding-bottom: 0px;
-  background-color: #ffc80f;
+  background-color: #7f1933;
 }
 .cid-rcbSyfgYFX .mbr-section-subtitle {
-  color: #cc2952;
+  color: #ffc80f;
 }
 .cid-rcbYi1wFql {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #ffffff;
+  background-color: #2e2e2e;
 }
 .cid-rcbYi1wFql .line {
   background-color: #149dcc;
@@ -3187,6 +3181,7 @@ body {
 }
 .cid-rcbYi1wFql .section-text {
   padding: 2rem 0;
+  color: #efefef;
 }
 .cid-rcbYi1wFql .inner-container {
   margin: 0 auto;
@@ -3199,7 +3194,7 @@ body {
 .cid-rcbYdaVhyV {
   padding-top: 0px;
   padding-bottom: 30px;
-  background-color: #f9f9f9;
+  background-color: #232323;
 }
 .cid-rcbYdaVhyV h4 {
   text-align: left;
@@ -3234,7 +3229,11 @@ body {
   }
 }
 .cid-rcbYdaVhyV P {
-  color: #232323;
+  color: #efefef;
+}
+.cid-rcbYdaVhyV .card-title,
+.cid-rcbYdaVhyV .card-img {
+  color: #efefef;
 }
 .cid-rcwmmNroXC {
   padding-top: 15px;
@@ -4137,82 +4136,4 @@ body {
 }
 .cid-rcwus6fJoQ H3 {
   color: #ffc80f;
-}
-.cid-rcwqcsMZAv {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #2e2e2e;
-}
-.cid-rcwqcsMZAv .row-links {
-  width: 100%;
-  -webkit-justify-content: center;
-  justify-content: center;
-}
-.cid-rcwqcsMZAv .social-row {
-  width: 100%;
-  -webkit-justify-content: center;
-  justify-content: center;
-}
-.cid-rcwqcsMZAv .media-container-row {
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-.cid-rcwqcsMZAv .media-container-row .foot-menu {
-  list-style: none;
-  display: flex;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding: 0;
-  margin-bottom: 0;
-}
-.cid-rcwqcsMZAv .media-container-row .foot-menu li {
-  padding: 0 1rem 1rem 1rem;
-}
-.cid-rcwqcsMZAv .media-container-row .foot-menu li p {
-  margin: 0;
-}
-.cid-rcwqcsMZAv .media-container-row .social-list {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: flex-end;
-  justify-content: flex-end;
-}
-.cid-rcwqcsMZAv .media-container-row .social-list .mbr-iconfont-social {
-  font-size: 1.5rem;
-  color: #ffffff;
-}
-.cid-rcwqcsMZAv .media-container-row .social-list .soc-item {
-  margin: 0 .5rem;
-}
-.cid-rcwqcsMZAv .media-container-row .social-list a {
-  margin: 0;
-  opacity: .5;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
-}
-.cid-rcwqcsMZAv .media-container-row .social-list a:hover {
-  opacity: 1;
-}
-@media (max-width: 767px) {
-  .cid-rcwqcsMZAv .media-container-row .social-list {
-    -webkit-justify-content: center;
-    justify-content: center;
-  }
-}
-.cid-rcwqcsMZAv .media-container-row .row-copirayt {
-  word-break: break-word;
-  width: 100%;
-}
-.cid-rcwqcsMZAv .media-container-row .row-copirayt p {
-  width: 100%;
 }
