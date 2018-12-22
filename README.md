@@ -5,8 +5,8 @@ The html mostly developed using Mobirise tool.
 
 ## Setup
 1. 
-  a. Install Mobirise tool(https://mobirise.com/) and then
-  b. Install git client (and sourceTree if you dont link cmd line or on windows) on your laptop 
+  * Install Mobirise tool(https://mobirise.com/) and then
+  * Install git client (and sourceTree if you dont link cmd line or on windows) on your laptop 
 
 2. Fork this git repo and name it say ```haa-fork``` then clone it to your laptop 
 ```git clone -b gh-pages https://github.com/raguks/haa-fork.git```
@@ -18,6 +18,7 @@ The html mostly developed using Mobirise tool.
 ```
 cp sponsor.html register.html ../backup/.
 ```
+
 5. Use Mobirise to make changes to index.html as required.
 6. Publish the changes to your git repo 
 7. Overwrite or merge (if you changed) sponsor.html and register.html from your backup and 
