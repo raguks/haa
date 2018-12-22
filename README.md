@@ -4,9 +4,16 @@ This gh-pages hosts family based registration support using paypal customized bo
 The html mostly developed using Mobirise tool.
 
 ## Setup
-1. Install Mobirise and then
-2. Fork this git repo and name it say ```haa-fork``` then clone it to your laptop ```git clone -b gh-pages https://github.com/raguks/haa-fork.git```
+1. 
+-- Install Mobirise tool(https://mobirise.com/) and then
+-- Install git client (and sourceTree if you dont link cmd line or on windows) on your laptop 
+
+2. Fork this git repo and name it say ```haa-fork``` then clone it to your laptop 
+```git clone -b gh-pages https://github.com/raguks/haa-fork.git```
+
 3. Import the haa-fork folder you downloaded/cloned from github to Mobirise.
+
+## Updating the portal
 4. sponsor.html and register.html will not import correctly - so keep a copy of it elsewhere
 ```
 cp sponsor.html register.html ../backup/.
