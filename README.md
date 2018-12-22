@@ -5,8 +5,8 @@ The html mostly developed using Mobirise tool.
 
 ## Setup
 1. 
- a. Install Mobirise tool(https://mobirise.com/) and then
- b. Install git client (and sourceTree if you dont link cmd line or on windows) on your laptop 
+  a. Install Mobirise tool(https://mobirise.com/) and then
+  b. Install git client (and sourceTree if you dont link cmd line or on windows) on your laptop 
 
 2. Fork this git repo and name it say ```haa-fork``` then clone it to your laptop 
 ```git clone -b gh-pages https://github.com/raguks/haa-fork.git```
